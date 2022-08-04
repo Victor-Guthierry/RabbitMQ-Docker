@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: br.com.feltex.mensageiro.MensageiroApplicationTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 34.909 s <<< FAILURE! - in br.com.feltex.mensageiro.MensageiroApplicationTest
+produzirMensagem  Time elapsed: 2.643 s  <<< ERROR!
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+	at br.com.feltex.mensageiro.MensageiroApplicationTest.produzirMensagem(MensageiroApplicationTests.java:19)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at br.com.feltex.mensageiro.MensageiroApplicationTest.produzirMensagem(MensageiroApplicationTests.java:19)
+
